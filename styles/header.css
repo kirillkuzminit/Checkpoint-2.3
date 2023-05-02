@@ -1,0 +1,50 @@
+header{
+	padding-top: 33px;
+	height: 25px;
+}
+
+.logo-link{
+	display: inline-block;
+	margin-top: -1px;
+	width: 128px;
+	height: 23px;
+}
+
+.logo {
+	display: block;
+	width: 128px;
+	height: 24px;
+}
+
+.header-nav{	
+	display: inline;
+	float: right;
+	vertical-align: top;
+}
+
+.header-nav-link {
+	margin-right: 58px;
+	height: 25px;
+	padding-bottom: 1px;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: #121212;
+}
+
+.header-nav-link:last-child{
+	margin-right: 0;
+}
+
+.header-nav-link:hover{
+	opacity: 0.5;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);	 
+}
+
+@media (max-width: 1199px) {
+	
+}
+@media (max-width: 767px){
+
+}
